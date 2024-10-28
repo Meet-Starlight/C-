@@ -43,9 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "条件运算符", "条件�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "条件运算符练习", "条件运算符练习\条件运算符练习.csproj", "{0A49AC36-2EE3-4CEB-A43C-FD7EDF358849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "逻辑运算符", "逻辑运算符\逻辑运算符.csproj", "{14DD9831-6E4C-4219-8788-A37D3B350A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "逻辑运算符", "逻辑运算符\逻辑运算符.csproj", "{14DD9831-6E4C-4219-8788-A37D3B350A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "逻辑运算符练习", "逻辑运算符练习\逻辑运算符练习.csproj", "{EF42212C-8E11-4A7B-878C-FD58A2C6D59E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "逻辑运算符练习", "逻辑运算符练习\逻辑运算符练习.csproj", "{EF42212C-8E11-4A7B-878C-FD58A2C6D59E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "位运算符", "位运算符\位运算符.csproj", "{95DDED19-2C73-48D0-8DC4-05201CE6B6F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "位运算符练习", "位运算符练习\位运算符练习.csproj", "{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{EF42212C-8E11-4A7B-878C-FD58A2C6D59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF42212C-8E11-4A7B-878C-FD58A2C6D59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF42212C-8E11-4A7B-878C-FD58A2C6D59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DDED19-2C73-48D0-8DC4-05201CE6B6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DDED19-2C73-48D0-8DC4-05201CE6B6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DDED19-2C73-48D0-8DC4-05201CE6B6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DDED19-2C73-48D0-8DC4-05201CE6B6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
