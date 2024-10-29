@@ -49,7 +49,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "逻辑运算符练习", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "位运算符", "位运算符\位运算符.csproj", "{95DDED19-2C73-48D0-8DC4-05201CE6B6F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "位运算符练习", "位运算符练习\位运算符练习.csproj", "{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "位运算符练习", "位运算符练习\位运算符练习.csproj", "{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "三目运算符", "三目运算符\三目运算符.csproj", "{8F81F46C-7350-4A43-8246-1464859CF506}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "三目运算符练习", "三目运算符练习\三目运算符练习.csproj", "{DB125BF9-CAE7-41E8-B84E-D5469DA7EC72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if语句", "if语句\if语句.csproj", "{801C597F-A881-4809-83B6-89193637F525}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +159,18 @@ Global
 		{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7FAD35D-19AA-4808-8FE9-C97475B7A45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F81F46C-7350-4A43-8246-1464859CF506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F81F46C-7350-4A43-8246-1464859CF506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F81F46C-7350-4A43-8246-1464859CF506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F81F46C-7350-4A43-8246-1464859CF506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB125BF9-CAE7-41E8-B84E-D5469DA7EC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB125BF9-CAE7-41E8-B84E-D5469DA7EC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB125BF9-CAE7-41E8-B84E-D5469DA7EC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB125BF9-CAE7-41E8-B84E-D5469DA7EC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801C597F-A881-4809-83B6-89193637F525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801C597F-A881-4809-83B6-89193637F525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801C597F-A881-4809-83B6-89193637F525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801C597F-A881-4809-83B6-89193637F525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
