@@ -57,9 +57,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "三目运算符练习", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "if语句", "if语句\if语句.csproj", "{801C597F-A881-4809-83B6-89193637F525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if语句练习", "if语句练习\if语句练习.csproj", "{B7D40FA3-7101-4F16-AA71-E3C80CC26967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "if语句练习", "if语句练习\if语句练习.csproj", "{B7D40FA3-7101-4F16-AA71-E3C80CC26967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "生命周期补充", "生命周期补充\生命周期补充.csproj", "{025504D6-B421-460B-8556-77C28BEC3A28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "生命周期补充", "生命周期补充\生命周期补充.csproj", "{025504D6-B421-460B-8556-77C28BEC3A28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch语句", "switch语句\switch语句.csproj", "{F9C89954-BD6C-47D9-86BA-CA03D608004F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch语句练习", "switch语句练习\switch语句练习.csproj", "{55321AB1-30CD-4906-A87E-2CB161503394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环", "while循环\while循环.csproj", "{8C2F543D-787F-425A-9317-F6F9C6AAFBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环练习", "while循环练习\while循环练习.csproj", "{C77124FD-388D-43A9-BA38-F86E52B8CD7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +191,22 @@ Global
 		{025504D6-B421-460B-8556-77C28BEC3A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025504D6-B421-460B-8556-77C28BEC3A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025504D6-B421-460B-8556-77C28BEC3A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C89954-BD6C-47D9-86BA-CA03D608004F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C89954-BD6C-47D9-86BA-CA03D608004F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C89954-BD6C-47D9-86BA-CA03D608004F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C89954-BD6C-47D9-86BA-CA03D608004F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55321AB1-30CD-4906-A87E-2CB161503394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55321AB1-30CD-4906-A87E-2CB161503394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55321AB1-30CD-4906-A87E-2CB161503394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55321AB1-30CD-4906-A87E-2CB161503394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2F543D-787F-425A-9317-F6F9C6AAFBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2F543D-787F-425A-9317-F6F9C6AAFBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2F543D-787F-425A-9317-F6F9C6AAFBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2F543D-787F-425A-9317-F6F9C6AAFBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77124FD-388D-43A9-BA38-F86E52B8CD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77124FD-388D-43A9-BA38-F86E52B8CD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77124FD-388D-43A9-BA38-F86E52B8CD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77124FD-388D-43A9-BA38-F86E52B8CD7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
