@@ -65,9 +65,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch语句", "switch语�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch语句练习", "switch语句练习\switch语句练习.csproj", "{55321AB1-30CD-4906-A87E-2CB161503394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环", "while循环\while循环.csproj", "{8C2F543D-787F-425A-9317-F6F9C6AAFBFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "while循环", "while循环\while循环.csproj", "{8C2F543D-787F-425A-9317-F6F9C6AAFBFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环练习", "while循环练习\while循环练习.csproj", "{C77124FD-388D-43A9-BA38-F86E52B8CD7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "while循环练习", "while循环练习\while循环练习.csproj", "{C77124FD-388D-43A9-BA38-F86E52B8CD7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "do-while循环语句", "do-while循环语句\do-while循环语句.csproj", "{6C58D4F5-118A-42C2-BDAE-FA1303CD2329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do-while循环语句练习", "do-while循环语句练习\do-while循环语句练习.csproj", "{F7949D4B-CCD4-4756-B495-8A20F5957307}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +211,14 @@ Global
 		{C77124FD-388D-43A9-BA38-F86E52B8CD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C77124FD-388D-43A9-BA38-F86E52B8CD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C77124FD-388D-43A9-BA38-F86E52B8CD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C58D4F5-118A-42C2-BDAE-FA1303CD2329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C58D4F5-118A-42C2-BDAE-FA1303CD2329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C58D4F5-118A-42C2-BDAE-FA1303CD2329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C58D4F5-118A-42C2-BDAE-FA1303CD2329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7949D4B-CCD4-4756-B495-8A20F5957307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7949D4B-CCD4-4756-B495-8A20F5957307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7949D4B-CCD4-4756-B495-8A20F5957307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7949D4B-CCD4-4756-B495-8A20F5957307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

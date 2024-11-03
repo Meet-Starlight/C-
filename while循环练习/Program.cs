@@ -87,6 +87,131 @@
                     Console.WriteLine("登录失败，请重新输入");
                 }
             }
+            Console.WriteLine("-------------");
+
+            // 6. 输入班级人数 然后依次输入成绩，计算班级学员的平均成绩和总成绩
+            try
+            {
+                Console.WriteLine("请输入班级人数");
+                int num5 = int.Parse(Console.ReadLine());
+                int sum = 0; // 总成绩
+                // 第几次 第几个人
+                int index = 0;
+                while (index < num5)
+                {
+                    ++index;
+                    Console.WriteLine("请输入第{0}个学员的成绩", index);
+                    // 得到输入的成绩
+                    int cj = int.Parse(Console.ReadLine());
+                    sum += cj;
+                }
+                // 打印平均成绩和总分
+                Console.WriteLine("平均成绩{0}，总分{1}", sum / num5, sum);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("请输入正确数字 ");
+                Console.WriteLine(e.Message);
+            }
+            Console.WriteLine("-------------");
+
+            // 7. 定义一个整型变量sum 然后分别把1--100之间的数字依次累加到sum中 当sum的值大于500时，中断操作，打印累加到第几个数时使sum大于500
+            int sum2 = 0;
+            int index2 = 0;
+            while (index2 < 100)
+            {
+                ++index2;
+                sum2 += index2;
+                if (sum2 > 500)
+                {
+                    break;
+                }
+            }
+            Console.WriteLine("累加到第{0}个数时，sum大于500", index2);
+            Console.WriteLine("-------------");
+
+            // 8. 初始数据为100，每个月增长20%，多久可以达到1000
+            // 上一次的结果 * 20% + 上一次的结果 = 本月数据
+
+            // 基础数据
+            int pers = 100;
+            // 月份
+            int month = 0;
+            while (true)
+            {
+                // 计算本月结果 结果取整数，小数float类型转为int类型
+                pers += (int)(pers * 0.2f);
+                // 每计算一次 月份累加1
+                ++month;
+                if (pers >= 1000)
+                {
+                    break;
+                }
+            }
+            Console.WriteLine("需要{0}个月才能达到1000", month);
+            Console.WriteLine("-------------");
+
+            // 9. 求数列1，1，2，3，5，8，13的第20位
+            // 斐波那契数列 面试常考
+            // 2 = 1 + 1
+            // 3 = 2 + 1
+            // 5 = 3 + 2
+            // 从第三个数开始，每个数的值等于前两个数相加
+
+            // 定义第一个数和第二个数
+            int n1 = 1;
+            int n2 = 1;
+            // 计数
+            int index3 = 0;
+            // 结果 初始化为0
+            int result = 0;
+            // 循环20次
+            while (index3 < 20)
+            {
+                ++index3;
+                // 前两个数固定都为1，即n1 n2
+                if (index3 == 1) // 第一次
+                {
+                    result = n1;
+                }
+                else if (index3 == 2) // 第二次
+                {
+                    result = n2;
+                }
+                else // 后续
+                {
+                    // 从第三个数开始，用前两个数相加得到结果
+                    result = n1 + n2;
+                    // 第四个数
+                    // 此时的n2相当于第三个数
+                    n1 = n2;
+                    n2 = result;
+                }
+            }
+            Console.WriteLine(result);
+            Console.WriteLine("-------------");
+
+            // 找出100内所有素数并打印
+            int num4 = 2;
+            while (num4 < 100)
+            {
+                int i = 2;
+                while (i < num4)
+                {
+                    // 判断整除
+                    if (num4 % i == 0)
+                    {
+                        break;
+                    }
+                    ++i;
+                }
+                // 相等时证明该值之前的数都不能整除，是素数
+                if (i == num4)
+                {
+                    Console.WriteLine(num4);
+                }
+                ++num4;
+            }
         }
 
     }
