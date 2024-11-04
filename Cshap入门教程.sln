@@ -71,7 +71,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "while循环练习", "while�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "do-while循环语句", "do-while循环语句\do-while循环语句.csproj", "{6C58D4F5-118A-42C2-BDAE-FA1303CD2329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do-while循环语句练习", "do-while循环语句练习\do-while循环语句练习.csproj", "{F7949D4B-CCD4-4756-B495-8A20F5957307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "do-while循环语句练习", "do-while循环语句练习\do-while循环语句练习.csproj", "{F7949D4B-CCD4-4756-B495-8A20F5957307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for循环", "for循环\for循环.csproj", "{F6F592D8-318D-4EA6-B0CF-A51DD8A9F62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for循环练习", "for循环练习\for循环练习.csproj", "{E157B466-E4E1-4495-8CEF-1851EFDCF093}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,14 @@ Global
 		{F7949D4B-CCD4-4756-B495-8A20F5957307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7949D4B-CCD4-4756-B495-8A20F5957307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7949D4B-CCD4-4756-B495-8A20F5957307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F592D8-318D-4EA6-B0CF-A51DD8A9F62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F592D8-318D-4EA6-B0CF-A51DD8A9F62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F592D8-318D-4EA6-B0CF-A51DD8A9F62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F592D8-318D-4EA6-B0CF-A51DD8A9F62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E157B466-E4E1-4495-8CEF-1851EFDCF093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E157B466-E4E1-4495-8CEF-1851EFDCF093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E157B466-E4E1-4495-8CEF-1851EFDCF093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E157B466-E4E1-4495-8CEF-1851EFDCF093}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
