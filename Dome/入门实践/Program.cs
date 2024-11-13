@@ -1,4 +1,6 @@
-﻿namespace 入门实践
+﻿using System;
+
+namespace 入门实践
 {
     internal class Program
     {
@@ -100,7 +102,62 @@
                         break;
                     case 2:
                         Console.Clear();
-                        Console.WriteLine("游戏场景");
+
+                        #region 边界区域
+                        // 字体颜色
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        for (int i = 0; i < w; i += 2)
+                        {
+                            // 上方边界
+                            Console.SetCursorPosition(i, 0);
+                            Console.Write("■");
+
+                            // 下方边界
+                            Console.SetCursorPosition(i, h - 1);
+                            Console.Write("■");
+
+                            // 中间边界
+                            Console.SetCursorPosition(i, h - 6);
+                            Console.Write("■");
+                        }
+
+                        // 左侧边界
+                        for (int i = 0; i < h; i++)
+                        {
+                            Console.SetCursorPosition(0, i);
+                            Console.Write("■");
+
+                            //右侧边界
+                            Console.SetCursorPosition(w - 2, i);
+                            Console.Write("■");
+                        }
+                        #endregion
+                        // NPC相关属性
+                        // 位置
+                        int NpcX = 24;
+                        int NpcY = 15;
+                        // 最小攻击力
+                        int NpcAtkMin = 5;
+                        // 最大攻击力
+                        int NpcAtkMax = 10;
+                        // 血量
+                        int NpcHp = 150;
+                        // 图标
+                        string NpcIcon = "■";
+                        // 声明一个自定义的颜色类型 用于NPC的图标颜色
+                        ConsoleColor NpcColor = ConsoleColor.Green;
+                        // 游戏场景主循环 检测玩家输入相关循环
+                        while (true)
+                        {
+                            // Npc血量大于0，绘制NPC图标
+                            if (NpcHp > 0)
+                            {
+                                // 绘制NPC图标
+                                Console.SetCursorPosition(NpcX, NpcY);
+                                Console.ForegroundColor = NpcColor;
+                                Console.Write(NpcIcon);
+                            }
+                        }
                         break;
                     case 3:
                         Console.Clear();
